@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* body { */
+/* background-image: linear-gradient (red, blue); */
+/* background-color: aqua; */
+/* } */
+
+@layer base {
+  body {
+    @apply bg-gradient-to-b from-[#f0f6f8] to-[#787d96] w-full min-h-screen pt-10;
+  }
+}
+html {
+  font-family: "Poppins", sans-serif;
+}
